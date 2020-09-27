@@ -1,7 +1,7 @@
 import tweepy
 
-auth = tweepy.OAuthHandler("FnMFgbEqZub5SXRDdx6lgI8fu", "XKDwUzSEcxsE6jt8qqsa4FR0Ufpmg21e6SflPekIscizvFZv71")
-auth.set_access_token("832732350-UjPXQW59OkkAQ19K5tZvjFyDk6E9rPrwvDZ4VmMk", "yYxswg5yJH2YJmZg9MVznEynEO3oXCwhgrMQBBjmq2hP7")
+auth = tweepy.OAuthHandler("FnMSfFgbEqZghDgGhjub5SXabRDdx6lgI8fu", "XKDwUzSEhgftYsjkAnkQcxsE6jt8qqsgfvhja4FR0Ufpmg21e6SfhfallPekIscizvFZv71")
+auth.set_access_token("832732350-UjPhjkkakljXQW59dfryAwkOkkAQ19K5tZvjFynvgjkagGjGjNkaklHavkDk6E9rPrwvDZ4VmMk", "yYxswg5yJH2YJmZg9ghkfawQxzhMVz67dgjklnEynEO3oXCwhgrMQBBjmq2hP7")
 
 api = tweepy.API(auth)
 public_tweets = api.home_timeline()
